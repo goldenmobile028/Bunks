@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Bunks
 //
-//  Created by Jayden Wan on 6/17/16.
+//  Created by Hua Wan on 6/17/16.
 //  Copyright © 2016 Hua Wan. All rights reserved.
 //
 
@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0/255.0 green:175/255.0 blue:240/255.0 alpha:1]];
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor whiteColor], NSForegroundColorAttributeName, [UIFont systemFontOfSize:21], NSFontAttributeName, nil]];
+    
+    application.statusBarStyle = UIStatusBarStyleLightContent;
+    
     return YES;
 }
 

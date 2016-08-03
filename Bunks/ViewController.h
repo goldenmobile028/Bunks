@@ -2,7 +2,7 @@
 //  ViewController.h
 //  Bunks
 //
-//  Created by Jayden Wan on 6/17/16.
+//  Created by Hua Wan on 6/17/16.
 //  Copyright © 2016 Hua Wan. All rights reserved.
 //
 

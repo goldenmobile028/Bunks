@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3D6BB91D13A64800CCFA00 /* AvenirLTStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D6BB71D13A64800CCFA00 /* AvenirLTStd-Black.otf */; };
+		3A3D6BBA1D13A64800CCFA00 /* AvenirLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D6BB81D13A64800CCFA00 /* AvenirLTStd-Medium.otf */; };
+		3A3D6BBE1D13ABE600CCFA00 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D6BBD1D13ABE600CCFA00 /* UINavigationBar+Awesome.m */; };
 		3A8C3D5D1D13987A00DBCE0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8C3D5C1D13987A00DBCE0B /* main.m */; };
 		3A8C3D601D13987A00DBCE0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8C3D5F1D13987A00DBCE0B /* AppDelegate.m */; };
 		3A8C3D631D13987A00DBCE0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8C3D621D13987A00DBCE0B /* ViewController.m */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A3D6BB71D13A64800CCFA00 /* AvenirLTStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Black.otf"; sourceTree = "<group>"; };
+		3A3D6BB81D13A64800CCFA00 /* AvenirLTStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Medium.otf"; sourceTree = "<group>"; };
+		3A3D6BBC1D13ABE600CCFA00 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		3A3D6BBD1D13ABE600CCFA00 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 		3A8C3D581D13987900DBCE0B /* Bunks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bunks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8C3D5C1D13987A00DBCE0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A8C3D5E1D13987A00DBCE0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +85,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A3D6BB51D13A64800CCFA00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D6BB61D13A64800CCFA00 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A3D6BB61D13A64800CCFA00 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D6BB71D13A64800CCFA00 /* AvenirLTStd-Black.otf */,
+				3A3D6BB81D13A64800CCFA00 /* AvenirLTStd-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3A3D6BBB1D13ABE600CCFA00 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D6BBC1D13ABE600CCFA00 /* UINavigationBar+Awesome.h */,
+				3A3D6BBD1D13ABE600CCFA00 /* UINavigationBar+Awesome.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		3A8C3D4F1D13987900DBCE0B = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +134,8 @@
 		3A8C3D5A1D13987A00DBCE0B /* Bunks */ = {
 			isa = PBXGroup;
 			children = (
+				3A3D6BBB1D13ABE600CCFA00 /* Utilities */,
+				3A3D6BB51D13A64800CCFA00 /* Resources */,
 				3A8C3D5E1D13987A00DBCE0B /* AppDelegate.h */,
 				3A8C3D5F1D13987A00DBCE0B /* AppDelegate.m */,
 				3A8C3D611D13987A00DBCE0B /* ViewController.h */,
@@ -245,6 +280,8 @@
 			files = (
 				3A8C3D6B1D13987A00DBCE0B /* LaunchScreen.storyboard in Resources */,
 				3A8C3D681D13987A00DBCE0B /* Assets.xcassets in Resources */,
+				3A3D6BBA1D13A64800CCFA00 /* AvenirLTStd-Medium.otf in Resources */,
+				3A3D6BB91D13A64800CCFA00 /* AvenirLTStd-Black.otf in Resources */,
 				3A8C3D661D13987A00DBCE0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +310,7 @@
 				3A8C3D631D13987A00DBCE0B /* ViewController.m in Sources */,
 				3A8C3D601D13987A00DBCE0B /* AppDelegate.m in Sources */,
 				3A8C3D5D1D13987A00DBCE0B /* main.m in Sources */,
+				3A3D6BBE1D13ABE600CCFA00 /* UINavigationBar+Awesome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beautifulvp.Bunks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -430,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beautifulvp.Bunks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +538,7 @@
 				3A8C3D871D13987A00DBCE0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A8C3D881D13987A00DBCE0B /* Build configuration list for PBXNativeTarget "BunksTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +547,7 @@
 				3A8C3D8A1D13987A00DBCE0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A8C3D8B1D13987A00DBCE0B /* Build configuration list for PBXNativeTarget "BunksUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +556,7 @@
 				3A8C3D8D1D13987A00DBCE0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
